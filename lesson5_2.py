@@ -5,11 +5,13 @@
 
 import random
 
+min = 1
+max = 50
+count = 0
+random_value = random.randint(min,max)
+print(random_value)
+
 if __name__ == "__main__":
-    min = 1
-    max = 50
-    count = 0
-    random_value = random.randint(min,max)
     print("====猜數字遊戲====")
     while True:
         count += 1
