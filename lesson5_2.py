@@ -31,3 +31,5 @@ if __name__ == "__main__":
         else:
             print(f"{keyin}超出範圍")
     print("Game over!")
+
+print(keyin)    
