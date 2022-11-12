@@ -1,6 +1,13 @@
 import random
 
 def play_game():
+    while True:
+        play_one()
+        play_again = input("繼續玩?(y,n)")
+        if play_again == "n":
+            break;
+
+def play_one():
     min = 1
     max = 100
     count = 0
